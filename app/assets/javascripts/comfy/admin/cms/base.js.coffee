@@ -51,7 +51,7 @@ window.CMS.wysiwyg = ->
     fileManagerJson:  "#{CMS.file_upload_path}?source=redactor&type=file"
     buttonSource:     true
     formattingTags:   ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
-    plugins:          ['imagemanager', 'filemanager', 'table', 'video']
+    plugins:          ['imagemanager', 'filemanager', 'table', 'video', 'fontcolor']
     lang:             CMS.locale
 
 
